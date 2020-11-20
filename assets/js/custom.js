@@ -4,11 +4,16 @@ $(document).ready(function () {
     $("body").toggleClass("fixed-position");
   });
   $('.testimonials-slider').slick({
-    arrows:true,
-    
+    // arrows:true,
+    // autoplay: true,
+    // autoplaySpeed: 2500,
+
+
   });
-  
-});
+
+
+
+}); 
 
 
 // $(document).ready(function(){

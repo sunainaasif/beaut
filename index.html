@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=\, initial-scale=1.0">
       <title>BeautX</title>
-      <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  -->
@@ -14,6 +14,8 @@
       <!-- slick -->
       <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      
 
     </head>
    <body>
@@ -24,11 +26,11 @@
                   <img src="./assets/images/Logo.svg" class="header__logo" />
                </div>
                <ul class="list">
-                  <li><a href="/index.html" >Home</a> </li>
-                  <li><a href="/index.html">Features</a></li>
-                  <li><a href="/index.html">Integrations</a></li>
-                  <li><a href="/index.html">Testimonials</a></li>
-                  <li><a href="/index.html">Contact</a></li>
+                  <li><a href="#" >Home</a> </li>
+                  <li><a href="#features-section">Features</a></li>
+                  <li><a href="#integration-section">Integrations</a></li>
+                  <li><a href="#testimonials-section">Testimonials</a></li>
+                  <li><a href="#footer-section">Contact</a></li>
                </ul>
             </header>
          </div>
@@ -44,7 +46,7 @@
          </div>
 
 
-         <section class="main">
+         <section class="main" id="main-section">
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
@@ -77,7 +79,7 @@
         </div>
          <!-- SPECIAL -->
 
-         <section class="special ">
+         <section class="special" id="special-section">
              <div class="container">
                  <div class="speacial-headings text-center " >
                      <span data-aos="fade-up" data-aos-duration="1000">  Services</span>
@@ -111,36 +113,36 @@
 
          </section>
          <!-- FEATURES -->
-         <section class="sec-padding1">
+         <section class="sec-padding" id="features-section">
              <div class="features"> 
                 <div class="">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mbl-div">
-                                <img src="./assets/images/feature_mbl2.png" alt="">
+                                <img data-aos="flip-left" data-aos-delay="1000" src="./assets/images/feature_mbl2.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="speacial-headings" data-aos="fade-left" >
+                            <div class="speacial-headings"  >
                                 <span >   Features</span>
-                                <h3 >Easy and Perfect <br> Solution for you...</h3>
-                                <p >In at iaculis lorem. Praesent tempor dictum tellus ut <br>  molestie. Sed sed ullamcorper lorem, id faucibus odio. <br>  Duis eu nisl ut ligula cursus molestie at at dolor.</p>
+                                <h3 data-aos="fade-right">Easy and Perfect <br> Solution for you...</h3>
+                                <p data-aos="fade-left">In at iaculis lorem. Praesent tempor dictum tellus ut <br>  molestie. Sed sed ullamcorper lorem, id faucibus odio. <br>  Duis eu nisl ut ligula cursus molestie at at dolor.</p>
                             </div>
                             <div>
                                 <ul class="features-list">
-                                    <li>
+                                    <li data-aos="fade-left">
                                         <img src="./assets/images/chk.png" alt="">
                                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-left">
                                         <img src="./assets/images/chk.png" alt="">
                                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-left">
                                         <img src="./assets/images/chk.png" alt="">
                                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-left">
                                         <img src="./assets/images/chk.png" alt="">
                                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                     </li>
@@ -157,7 +159,7 @@
              </div>
          </section>
          <!-- Benefits -->
-         <section class="benefits">
+         <section class="benefits" id="benefits-section">
              <div class="container">
                  <div class="row">
                      <div class="col-md-6">
@@ -186,9 +188,9 @@
                      </div>
                      <div class="col-md-6">
                          <div class="path-bg">
-                             <div class="mbl-images">
-                                <img src="./assets//images/feature_mbl3.png" alt="">
-                                <img src="./assets//images/feature_mbl4.png" alt="">
+                             <div class="mbl-images" > 
+                                <img src="./assets//images/feature_mbl3.png" alt=""data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="1000" >
+                                <img src="./assets//images/feature_mbl4.png" alt=""data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="2000" >
 
                              </div>
                          </div>
@@ -197,7 +199,7 @@
              </div>
 
          </section>
-         <section class="integration sec-padding">
+         <section class="integration sec-padding" id="integration-section">
             <div class="container">                
                     <div class="speacial-headings text-center " >
                        <span data-aos="fade-up" data-aos-duration="1000">  Integration</span>
@@ -209,27 +211,27 @@
                 <div class="int-icons">
                     <div class="flex-container">
                         <div class="flex-item flex-item-1">
-                            <img src="./assets/images/map.png" alt="">
+                            <img src="./assets/images/Map.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                         <div class="flex-item flex-item-2">
-                            <img src="./assets/images/skype.png" alt="">
+                            <img src="./assets/images/skype.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                         <div class="flex-item flex-item-3">
-                            <img src="./assets/images/google.png" alt="">
+                            <img src="./assets/images/google.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                         <div class="flex-item flex-item-4">
-                            <img src="./assets/images/twitter.png" alt="">
+                            <img src="./assets/images/twitter.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                     </div>
                     <div class="flex-container padding-rl">
                         <div class="flex-item flex-item-1">
-                            <img src="./assets/images/fb.png" alt="">
+                            <img src="./assets/images/fb.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                         <div class="flex-item flex-item-2">
-                            <img src="./assets/images/folder.png" alt="">
+                            <img src="./assets/images/folder.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                         <div class="flex-item flex-item-3">
-                            <img src="./assets/images/calender.png" alt="">
+                            <img src="./assets/images/calender.png" data-aos="flip-left" data-aos-duration="1000" alt="">
                         </div>
                       
                     </div>
@@ -237,7 +239,7 @@
             </div>
          </section>
          <!-- Support -->
-         <section class="support sec-padding" style="background-image: url('./assets/images/support_bg.png');">
+         <section class="support sec-padding" style="background-image: url('./assets/images/support_bg.png');" id="values-section">
              <div class="rectangleBg" > 
                 <div class="container">                
                     <div class="speacial-headings text-center " >
@@ -250,7 +252,7 @@
                             <div class="col-md-3">
                                 <div class="support-box text-center">
                                     <div class="support-box-img">
-                                        <img src="./assets/images/Group15.png" alt="">
+                                        <img src="./assets/images/Group15.png" data-aos="zoom-in" data-aos-duration="1000" alt="">
                                     </div>
                                         <h4>85%</h4>
                                         <p>Creativity</p>
@@ -259,7 +261,7 @@
                             <div class="col-md-3">
                                 <div class="support-box text-center">
                                     <div class="support-box-img">
-                                        <img src="./assets/images/tools.png" alt="">
+                                        <img src="./assets/images/tools.png" data-aos="zoom-in" data-aos-duration="1000" alt="">
                                     </div>
                                         <h4>90%</h4>
                                         <p>Development</p>
@@ -268,7 +270,7 @@
                             <div class="col-md-3">
                                 <div class="support-box text-center">
                                     <div class="support-box-img">
-                                        <img src="./assets/images/Group16.png" alt="">
+                                        <img src="./assets/images/Group16.png" data-aos="zoom-in" data-aos-duration="1000" alt="">
                                     </div>
                                         <h4>69%</h4>
                                         <p>Marketing</p>
@@ -277,7 +279,7 @@
                             <div class="col-md-3">
                                 <div class="support-box text-center">
                                     <div class="support-box-img">
-                                        <img src="./assets/images/Group17.png" alt="">
+                                        <img src="./assets/images/Group17.png" data-aos="zoom-in" data-aos-duration="1000" alt="">
                                     </div>
                                         <h4>95%</h4>
                                         <p>Success</p>
@@ -291,7 +293,7 @@
 
          </section>
          <!-- Testimonials -->
-         <section class="testimonials sec-padding1">
+         <section class="testimonials sec-padding1" id="testimonials-section">
             <div class="container">                
                 <div class="speacial-headings text-center " >
                    <span data-aos="fade-up" data-aos-duration="1000">  Testimonial</span>
@@ -300,6 +302,27 @@
                 </div>
         <!-- slider -->
                 <div class="testimonials-slider">
+                      <div >
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="test-image">
+                                    <img src="./assets/images/test.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonials-box">
+                                    <h5>Great & Excellent Service</h5>
+                                    <p>There are many variations of passages o Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                                    <div class="rating">
+                                        <img src="./assets/images/rating.png" alt="">
+                                    </div>
+                                    <h6 class="name">Michael E. Baker</h6>
+                                    <p class="position">Managing Director</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                      </div>
                       <div>
                         <div class="row">
                             <div class="col-md-6">
@@ -312,7 +335,28 @@
                                     <h5>Great & Excellent Service</h5>
                                     <p>There are many variations of passages o Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
                                     <div class="rating">
-                                        <img src="" alt="">
+                                        <img src="./assets/images/rating.png" alt="">
+                                    </div>
+                                    <h6 class="name">Michael E. Baker</h6>
+                                    <p class="position">Managing Director</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="test-image">
+                                    <img src="./assets/images/test.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonials-box">
+                                    <h5>Great & Excellent Service</h5>
+                                    <p>There are many variations of passages o Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                                    <div class="rating">
+                                        <img src="./assets/images/rating.png" alt="">
                                     </div>
                                     <h6 class="name">Michael E. Baker</h6>
                                     <p class="position">Managing Director</p>
@@ -324,9 +368,9 @@
                     
                 </div>
                 <!-- slider end -->
-                <div class="download-app">
-                    <h4>Still Not Lucky? Download App Now</h4>
-                    <p>Aenean sed lorem est. Sed quis neque ut nibh suscipit imperdiet ac non augue. <br>
+                <div class="download-app" >
+                    <h4 data-aos="fade-right" data-aos-duration="1000">Still Not Lucky? Download App Now</h4>
+                    <p data-aos="fade-right" data-aos-duration="2000">Aenean sed lorem est. Sed quis neque ut nibh suscipit imperdiet ac non augue. <br>
                          Aenean ornare sit amet lectus non tristique.</p>
                     <div class="download-app-btns">
                         <div class="buttons">
@@ -346,7 +390,7 @@
             </div>
          </section>
 
-<footer class="sec-padding1" style="background-image:url('./assets/images/footer.png');"> 
+<footer class="sec-padding1" style="background-image:url('./assets/images/footer.png');" id="footer-section"> 
    
         <div class="main-footer"> 
             <div class="container">
@@ -363,6 +407,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
+                        <div class="footer-cols">
                         <div class="footer-uls">
                             <h6>About Us</h6>
                             <ul class="about">
@@ -375,8 +420,10 @@
 
                             </ul>
                         </div>
+                        </div>
                     </div>
                     <div class="col-md-3">
+                        <div class="footer-cols">
                         <div class="footer-uls">
                             <h6>Product Help</h6>
                             <ul class="about">
@@ -390,41 +437,40 @@
 
                             </ul>
                         </div>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="footer-uls">
-                            <h6>Product Help</h6>
-                            <ul class="about">
-                             
-                                <li><a href="#">FAQ </a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Support </a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact </a></li>
+                        <div class="footer-cols">
+                            <p>Send us a newsletter to get update</p>
+                            <form action="/action_page.php" class="footer-form">
+                                <input type="email" id="email" name="email">
+                                <input type="image" src="./assets/images/icon_send.png" alt="Submit" >
+                              </form>
+                              <p class="contact">Address:<span>1929 Woodland Ave, Craig, CO 81625, USA</span></p>
+                              <p class="contact">Phone:<span><a href=”tel:+985-747-4991″>985-747-4991, 337-207-9469</a>.</span></p>
 
-
-                            </ul>
                         </div>
                     </div>
                 </div>
               
             </div>
-            <div class="btm-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="rights"> © 2020 Appfold All rights reserved.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li><a href="#"> Privacy & Policy</a></li>
-                                <li><a href="#"> Privacy & Policy</a></li>
-        
-                            </ul>
-                        </div>
+            
+        </div>
+        <div class="btm-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="rights"> © 2020 Appfold All rights reserved.</p>
                     </div>
-        
+                    <div class="col-md-6">
+                        <ul>
+                            <li><a href="#"> Privacy & Policy</a></li>
+                            <li><a href="#"> Privacy & Policy</a></li>
+    
+                        </ul>
+                    </div>
                 </div>
+    
             </div>
         </div>
   

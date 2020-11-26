@@ -753,6 +753,9 @@ input[type="email"] {
 .mbl-div img {
   height: 100%;
 }
+.buttons a {
+  text-decoration: none;
+}
 @media only screen and (max-width: 1780px) {
   .features {
     background-size: 40% 100%;
@@ -829,6 +832,13 @@ input[type="email"] {
   }
 }
 @media only screen and (max-width: 1199px) {
+  .test-image {
+    margin-top: 60px;
+    height: 440px;
+}
+.test-image img {
+  height: 100%;
+}
   /* .mbl-div::after{display:none} */
   .mbl-images img {
     margin-top: 60px;
@@ -874,15 +884,13 @@ input[type="email"] {
   .special-card {
     height: 500px;
   }
-  .mbl-images img {
-    margin-right: 10px;
-  }
+  /* .mbl-images img {
+    margin-right: 1px;
+  } */
   .int-icons:before {
     display: none;
   }
-  .test-image img {
-    width: 100%;
-  }
+
   .testimonials-box h5 {
     font-size: 25px;
   }
@@ -920,13 +928,21 @@ input[type="email"] {
     margin-top: 60px;
   }
 }
+@media only screen and (max-width: 1150px) {
+  .header {
+    width: 75%;}
+
+  .mbl-images {
+    height: 600px;
+}
+}
 
 @media only screen and (max-width: 1100px) {
   .header {
     width: 80%;
   }
   .mbl-images {
-    height: 700px;
+    height: 640px;
   }
   .single-card {
     background: #f2f4ff;
@@ -941,6 +957,13 @@ input[type="email"] {
   }
 }
 @media only screen and (max-width: 991px) {
+  ul.list li a {
+    
+    font-size: 17px;}
+
+  .mbl-images img {
+    margin-right: 0px;
+}
   .header {
     width: 90%;
   }
@@ -1020,8 +1043,21 @@ input[type="email"] {
   .btm-footer ul li a {
     padding: 0px 13px;
   }
+  .test-image {
+    height: 410px;
+}
+.test-image img {
+  height:100%;
+  margin: 0 auto !important;
+  width:auto;
+}
+.test-image {
+  height: 440px;
+  margin-top: 50px;
+}
 }
 @media only screen and (max-width: 767px) {
+
   .btm-footer p {
     text-align: center;
   }
@@ -1059,6 +1095,7 @@ input[type="email"] {
 }
 
 @media only screen and (max-width: 716px) {
+
   br {
     display: none;
   }
@@ -1108,9 +1145,11 @@ input[type="email"] {
     font-size: 18px;
   }
 }
+
 @media only screen and (max-width: 686px) {
-}
-@media only screen and (max-width: 686px) {
+
+  .background {
+    height: 840px;}
   .header {
     width: 100%;
   }
@@ -1119,7 +1158,8 @@ input[type="email"] {
   }
   .mbl-logo img {
     display: block;
-    height: 50px;
+    height: 80px;
+    margin-left: 40px;
   }
 
   .lines {
@@ -1167,7 +1207,7 @@ input[type="email"] {
   .header__logo-mobile {
     height: 70px;
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 25px;
     display: block;
   }
 
@@ -1215,6 +1255,36 @@ input[type="email"] {
   .speacial-headings h3 {
     font-size: 30px;
   }
+ 
+.test-image {
+    height: 340px;
+   
+}
+}
+@media only screen and (max-width: 486px) {
+  .testimonials-box {
+    height: 580px;
+}
+.testimonials-box h5 {
+  font-size: 22px;
+}
+.testimonials-box p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+h6.name {
+  font-size: 18px;
+}
+p.position {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+.slick-prev {
+  right: 310px;
+}
+.slick-next {
+  right: 240px;
+}
 }
 
 /* .special:before{overflow-x: hidden; }

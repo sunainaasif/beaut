@@ -21,7 +21,7 @@
     </head>
    <body>
       <div class="background" style="background-image: url('./assets/images/BG.png');">
-         <div class="header_container" >
+         <div class="header_container" data-aos="fade-down">
             <header class="header">
                 <div>
                     <img src="./assets/images/Logo.svg" class="header__logo-mobile" />
@@ -72,14 +72,18 @@
 
                      </div>
                      <div class="buttons">
-                         <div class="download-btn google" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000"> 
-                             <div>  <img src="./assets/images/googleplay_icon.png" alt=""></div>
-                             <div> <span>Download it from <br> <span> GOOGLE PLAY</span></span></div>
-                         </div>
-                         <div class="download-btn apple " data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1000">
-                            <div>  <i class="fab fa-apple fa-2x" ></i></div>
-                            <div> <span>Download it from <br> <span>APP STORE </span> </span></div>
-                        </div>
+                         <a href="#">
+                            <div class="download-btn google" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000"> 
+                                <div>  <img src="./assets/images/googleplay_icon.png" alt=""></div>
+                                <div> <span>Download it from <br> <span> GOOGLE PLAY</span></span></div>
+                            </div>
+                         </a>
+                         <a href="#"> 
+                            <div class="download-btn apple " data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1000">
+                                <div>  <i class="fab fa-apple fa-2x" ></i></div>
+                                <div> <span>Download it from <br> <span>APP STORE </span> </span></div>
+                            </div>
+                         </a>
 
                      </div>
                   </div>
@@ -218,7 +222,7 @@
                      <div class="col-md-6">
                          <div class="path-bg">
                              <div class="mbl-images" > 
-                                <img src="./assets//images/Phone_group.png" alt=""data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="1000" >
+                                <img src="./assets//images/Phone_group.png" alt="" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="1000" >
                                 <!-- <img src="./assets//images/feature_mbl4.png" alt=""data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="2000" > -->
 
                              </div>
@@ -557,7 +561,7 @@
     var topOfOthDiv = $("#special-section").offset().top;
     $(window).scroll(function() {
         if($(window).scrollTop() > topOfOthDiv - 200) { //scrolled past the other div?
-            $(".header_container").css('background','#c5a552'); //reached the desired point -- show div
+            $(".header_container").css('background','linear-gradient(rgb(233 214 135), #b4913f)'); //reached the desired point -- show div
 
             $(".header_container").css('position','fixed');
             $(".header_container").css('width','100%');
